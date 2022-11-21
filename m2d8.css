@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    max-width: 39rem;
+}
+
+table {
+border-collapse:collapse
+}
+td, th {
+border:1px solid #ddd;
+padding:8px;
+}
+
+a > img {
+    width: 15rem;
+    height: 150px;
+}
+
+.html{
+    border-bottom: 3px solid;
+    border-color: #000000;
+    padding-bottom: 1.5rem
+}
