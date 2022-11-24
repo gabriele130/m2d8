@@ -26,7 +26,9 @@ const person = {
   ]
   console.log(city)
 
-  let array = [
-    num = Math.round(Math.random()*100 + 1)
-  ]
-  console.log(array)
+  
+
+
+
+  
+  

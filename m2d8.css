@@ -4,20 +4,60 @@ body {
 }
 
 table {
-border-collapse:collapse
-}
-td, th {
-border:1px solid #ddd;
-padding:8px;
+    border-collapse: collapse
 }
 
-a > img {
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+a>img {
     width: 15rem;
     height: 150px;
 }
 
-.html{
+.html {
     border-bottom: 3px solid;
     border-color: #000000;
     padding-bottom: 1.5rem
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 1em;
+    background: #ddd;
+    border-bottom: 2px solid white;
+}
+
+p {
+    margin: 1rem 1.5rem
+}
+
+.font {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.none {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+
+td {
+    border-color: rgb(37, 162, 75);
+}
+
+tr {
+    cursor: pointer;
+    border: 2px solid rgb(255, 0, 0);
+   color: rgb(218, 60, 32);
 }
